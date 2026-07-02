@@ -10,7 +10,7 @@ Instituto Federal do Acre – Campus Rio Branco
 ## 👨‍🏫 Professor
 Jonas Pontes  
 
-## 👩‍🎓 Aluno(s)
+## 👩‍🎓 Alunas
 - Elis Valente  
 - Marisol Assunção
 - Pâmela Bruna
