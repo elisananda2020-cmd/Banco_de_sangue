@@ -54,44 +54,6 @@ O sistema simula o funcionamento de um banco de sangue, permitindo o cadastro de
 
 ---
 
-# 📂 Estrutura do projeto
-
-```
-src/
-│
-├── model/
-│   ├── Pessoa.java
-│   ├── Doador.java
-│   ├── Funcionario.java
-│   ├── BolsaDeSangue.java
-│   ├── Doacao.java
-│   └── Estoque.java
-│
-├── control/
-│   ├── DoadorController.java
-│   ├── DoacaoController.java
-│   └── EstoqueController.java
-│
-├── persistencia/
-│   ├── DoadorRepositorio.java
-│   ├── DoacaoRepositorio.java
-│   └── EstoqueRepositorio.java
-│
-├── interfaces/
-│   ├── Relatorio.java
-│   └── Notificavel.java
-│
-├── exception/
-│   ├── DoadorNaoEncontradoException.java
-│   └── EstoqueInsuficienteException.java
-│
-└── view/
-    ├── Menu.java
-    └── Main.java
-```
-
----
-
 # 🧩 Conceitos de POO aplicados
 
 O projeto contempla os principais conceitos da Programação Orientada a Objetos:
@@ -121,50 +83,11 @@ O projeto contempla os principais conceitos da Programação Orientada a Objetos
 
 ---
 
-# ▶️ Como executar
-
-## Pré-requisitos
-
-- Java JDK 17 ou superior
-- IDE Java (IntelliJ IDEA, Eclipse, NetBeans ou VS Code)
-
-## Passos
-
-1. Clone o repositório:
-
-```bash
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
-```
-
-2. Abra o projeto em sua IDE.
-
-3. Execute a classe:
-
-```
-view/Main.java
-```
-
-4. Utilize o menu interativo para acessar as funcionalidades do sistema.
-
----
-
 # 💾 Armazenamento de dados
 
 Este projeto utiliza persistência simulada em memória, através de coleções do Java (`List` e `Map`).
 
 Os dados permanecem armazenados apenas durante a execução do programa.
-
----
-
-# 🚧 Possíveis melhorias
-
-- Persistência em banco de dados (MySQL ou PostgreSQL);
-- Interface gráfica (JavaFX ou Swing);
-- Login de funcionários;
-- Geração de relatórios em PDF;
-- Pesquisa avançada de doadores;
-- Histórico completo de movimentação das bolsas;
-- API REST utilizando Spring Boot.
 
 ---
 
@@ -178,8 +101,3 @@ O projeto possui:
 - Diagrama de Máquina de Estados;
 - Documentação técnica da disciplina.
 
----
-
-# 📄 Licença
-
-Este projeto foi desenvolvido exclusivamente para fins acadêmicos na disciplina de Programação Orientada a Objetos do Instituto Federal do Acre (IFAC).
