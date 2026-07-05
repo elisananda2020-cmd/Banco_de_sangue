@@ -96,12 +96,6 @@ Foi desenvolvido um diagrama para representar o ciclo de vida de uma Bolsa de Sa
 ---
 
 ## Registro de Doações
-
-* Registro da data da doação;
-* Registro do volume coletado;
-* Geração automática de uma bolsa de sangue;
-* Atualização automática do estoque.
-
 Regras implementadas:
 
 * Peso mínimo de **50 kg** para realizar uma doação;
@@ -202,7 +196,8 @@ para representar diferentes responsabilidades dentro da aplicação.
 
 Utilização de coleções do Java para simular a persistência dos dados:
 
-* List
+*List: utilizada para armazenar doadores, doações e bolsas de sangue.
+*Map: utilizada para gerar o resumo do estoque, relacionando cada tipo sanguíneo à quantidade de bolsas disponíveis.
 
 ---
 
