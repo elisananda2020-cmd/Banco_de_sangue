@@ -153,7 +153,6 @@ O sistema realiza diversas validações para garantir a consistência dos dados.
 ### Doação
 
 * Peso mínimo de 50 kg;
-* Quantidade entre 420 e 470 mL.
 
 ### Estoque
 
