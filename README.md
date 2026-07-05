@@ -197,7 +197,6 @@ para representar diferentes responsabilidades dentro da aplicação.
 Utilização de coleções do Java para simular a persistência dos dados:
 
 * List: utilizada para armazenar doadores, doações e bolsas de sangue.
-* 
 * Map: utilizada para gerar o resumo do estoque, relacionando cada tipo sanguíneo à quantidade de bolsas disponíveis.
 
 ---
